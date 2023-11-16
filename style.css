@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  max-height: 442px;
+  background-color: #ffcd9e;
+  position: relative;
+}
+.left {
+  flex: 1;
+}
+.right {
+  flex: 1;
+}
+#image {
+  position: relative;
+  top: 3px;
+  left: 128px;
+}
+img.specific-img {
+  width: 455px;
+  height: 455px;
+}
+
+#heading {
+  position: relative;
+  width: 562px;
+  height: 108px;
+  top: 3px;
+  left: 96px;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#para {
+  position: relative;
+  width: 495px;
+  height: 81px;
+  top: 2px;
+  left: 96px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#bold {
+  position: relative;
+  width: 227px;
+  height: 81px;
+  top: 18px;
+  left: 96px;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#in {
+  position: relative;
+  width: 284px;
+  height: 29px;
+  top: 45px;
+  left: 96px;
+  border-radius: 4px;
+  border: 2px solid #000;
+}
+#button {
+  position: relative;
+  width: 186px;
+  height: 29px;
+  top: 45px;
+  left: 96px;
+  border-radius: 4%;
+  background-color: #24638d; /* Add your preferred background color */
+  color: #fff;
+}
+#alert {
+  position: relative;
+  width: 344px;
+  height: 61px;
+  top: 52px;
+  left: 74px;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.footer {
+  display: flex;
+
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 168px;
+  top: 410px;
+  background-color: #282828;
+}
+
+.footer-left {
+  padding: 20px;
+  flex: 1;
+  position: absolute;
+  left: 46px;
+  top: 434px;
+}
+.footer-right {
+  padding: 20px;
+  position: absolute;
+  flex: 1;
+  top: 429px;
+  right: 126px;
+  text-align: right;
+}
+
+ul {
+  list-style-type: none;
+  color: #ffffff;
+}
+.right-list li:empty {
+  background-color: #282828;
+  height: 20px;
+}
+
+li {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.special-item {
+  height: 13px;
+}
